@@ -127,3 +127,56 @@ Indian Rupees (₹)
 14,500
 US Dollars (US$)
 168.60
+
+
+
+<img width="1536" height="1024" alt="file_000000009ff47208af893341e4e20ab1" src="https://github.com/user-attachments/assets/57053a17-6e98-47b5-8b05-4d12c6aa6e0e" />
+
+
+code for esp 
+// Demo thresholds
+const float HUMIDITY_LIMIT = 90.0;     // %
+const float PRESSURE_LIMIT = 995.0;    // hPa
+const int RAIN_LIMIT = 1800;           // ADC value (calibrate for your sensor)
+
+bool danger = false;
+
+if (humidity >= HUMIDITY_LIMIT) {
+    Serial.println("High Humidity!");
+    danger = true;
+}
+
+if (pressure <= PRESSURE_LIMIT) {
+    Serial.println("Low Pressure!");
+    danger = true;
+}
+
+if (rain <= RAIN_LIMIT) {
+    Serial.println("Rain Detected!");
+    danger = true;
+}
+
+if (danger) {
+
+    // Turn ON Alert
+    digitalWrite(RELAY_PIN, HIGH);
+    digitalWrite(BUZZER_PIN, HIGH);
+
+    // Turn ON Ultrasonic Driver (Experimental)
+    digitalWrite(ULTRASONIC_DRIVER_PIN, HIGH);
+
+    Serial.println("==============================");
+    Serial.println("ALERT MODE ACTIVATED");
+    Serial.println("Buzzer ON");
+    Serial.println("Relay ON");
+    Serial.println("Ultrasonic Driver ENABLED");
+    Serial.println("==============================");
+
+}
+else {
+
+    digitalWrite(RELAY_PIN, LOW);
+    digitalWrite(BUZZER_PIN, LOW);
+    digitalWrite(ULTRASONIC_DRIVER_PIN, LOW);
+
+}
