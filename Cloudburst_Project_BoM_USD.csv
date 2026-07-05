@@ -1,0 +1,17 @@
+Component,Qty,Unit Price (₹),Total (₹),Unit Price (USD),Total (USD),Example Link
+ESP32 Dev Board,1.0,700,700.0,8.14,8.14,https://robu.in/?s=ESP32
+DHT22 Sensor,1.0,600,600.0,6.98,6.98,https://robu.in/?s=DHT22
+BMP280/BME280,1.0,700,700.0,8.14,8.14,https://robu.in/?s=BMP280
+Rain Sensor Module,1.0,500,500.0,5.81,5.81,https://robu.in/?s=Rain+Sensor
+USB Camera,1.0,1300,1300.0,15.12,15.12,https://robu.in/?s=USB+Camera
+24V Ultrasonic Mist Maker,2.0,1000,2000.0,11.63,23.26,https://robu.in/?s=24V+mist+maker
+Acrylic Cloud Chamber,1.0,1800,1800.0,20.93,20.93,Custom fabrication
+40 kHz 60W Ultrasonic Transducer,6.0,900,5400.0,10.47,62.79,https://www.aliexpress.com/wholesale?SearchText=40khz+60w+ultrasonic+transducer
+Buzzer,1.0,300,300.0,3.49,3.49,https://robu.in/?s=buzzer
+Relay Module,2.0,250,500.0,2.91,5.81,https://robu.in/?s=relay+module
+12V Power Supply,1.0,700,700.0,8.14,8.14,https://robu.in/?s=12v+power+supply
+24V Power Supply,1.0,1200,1200.0,13.95,13.95,https://robu.in/?s=24v+power+supply
+Wiring/Connectors,1.0,500,500.0,5.81,5.81,https://robu.in/
+Switches,1.0,300,300.0,3.49,3.49,https://robu.in/?s=push+button
+,,,,,,
+,,Grand Total,14500.0,,168.6,
