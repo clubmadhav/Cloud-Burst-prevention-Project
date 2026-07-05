@@ -9,3 +9,121 @@ The proposed prototype integrates IoT sensors, computer vision, and machine lear
 A key research aspect of this project is the investigation of a 40 kHz ultrasonic cloud-penetration and droplet-dispersion mechanism within a controlled laboratory prototype. An acrylic cloud chamber will be used to study how ultrasonic waves interact with suspended mist under repeatable conditions. The observations from this prototype will help evaluate the feasibility of this approach and provide a foundation for future research.
 To make the concept easy to understand, the working model also includes a realistic mountain terrain with villages, roads, rivers, and evacuation routes. During demonstrations, the system will simulate cloudburst conditions, perform AI-based risk analysis, display the decision-making process, and illustrate automated emergency alerts and response.
 This project represents months of research, learning, design, and engineering. My goal is not only to build a functional prototype but also to encourage further scientific exploration into smarter and more effective ways of reducing the impact of cloudbursts and protecting vulnerable communities.
+<img width="2340" height="1080" alt="IMG_20260705_23174785_gallery" src="https://github.com/user-attachments/assets/84b4f556-79d7-4e09-812d-5f42c24e792b" />
+<img width="1536" height="709" alt="IMG_20260705_23174778_gallery" src="https://github.com/user-attachments/assets/20acdb03-0b9a-4e4f-9542-bffa8a5633b6" />
+<img width="1402" height="1122" alt="file_0000000094707230a8b9db8dbc8507ec" src="https://github.com/user-attachments/assets/0ea8c64a-e184-4a9e-8a5c-14d7dfef5e92" />
+
+<img width="1536" height="1024" alt="file_0000000018547230a5c638727dcb1d46" src="https://github.com/user-attachments/assets/f7c03671-fa72-4a58-a949-682e366ef457" />
+Using an exchange rate of ₹86 = US$1, here's the Bill of Materials in table format.
+Component
+Qty
+Unit Price (₹)
+Total (₹)
+Unit Price (US$)
+Total (US$)
+Example Link
+ESP32 Dev Board
+1
+700
+700
+8.14
+8.14
+https://robu.in/?s=ESP32⁠�
+DHT22 Temperature & Humidity Sensor
+1
+600
+600
+6.98
+6.98
+https://robu.in/?s=DHT22⁠�
+BMP280/BME280 Pressure Sensor
+1
+700
+700
+8.14
+8.14
+https://robu.in/?s=BMP280⁠�
+Rain Sensor Module
+1
+500
+500
+5.81
+5.81
+https://robu.in/?s=Rain+Sensor⁠�
+USB Camera / Raspberry Pi Camera
+1
+1,300
+1,300
+15.12
+15.12
+https://robu.in/?s=USB+Camera⁠�
+24 V Ultrasonic Mist Maker
+2
+1,000
+2,000
+11.63
+23.26
+https://robu.in/?s=24V+mist+maker⁠�
+Acrylic Cloud Chamber (Custom)
+1
+1,800
+1,800
+20.93
+20.93
+Custom Fabrication
+40 kHz, 60 W Ultrasonic Transducer
+6
+900
+5,400
+10.47
+62.79
+https://www.aliexpress.com/wholesale?SearchText=40khz+60w+ultrasonic+transducer⁠�
+Buzzer / Electronic Siren
+1
+300
+300
+3.49
+3.49
+https://robu.in/?s=buzzer⁠�
+Relay Module
+2
+250
+500
+2.91
+5.81
+https://robu.in/?s=relay+module⁠�
+12 V Power Supply
+1
+700
+700
+8.14
+8.14
+https://robu.in/?s=12v+power+supply⁠�
+24 V Power Supply
+1
+1,200
+1,200
+13.95
+13.95
+https://robu.in/?s=24v+power+supply⁠�
+Wiring, Connectors & Terminal Blocks
+—
+500
+500
+5.81
+5.81
+https://robu.in/⁠�
+Switches & Push Buttons
+—
+300
+300
+3.49
+3.49
+https://robu.in/?s=push+button⁠�
+Grand Total
+Currency
+Total
+Indian Rupees (₹)
+14,500
+US Dollars (US$)
+168.60
